@@ -1,0 +1,13 @@
+History.txt
+License.txt
+Manifest.txt
+README.txt
+Rakefile
+bin/bundlemate
+lib/bundle_mate.rb
+lib/bundle_mate/application.rb
+lib/bundle_mate/bundle.rb
+spec/application_spec.rb
+spec/bundle_spec.rb
+spec/spec.opts
+spec/spec_helper.rb

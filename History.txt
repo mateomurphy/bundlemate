@@ -1,0 +1,9 @@
+== 0.1.1 01-11-2007
+
+* 1 minor enhancement:
+  * Updated help text with clearer instructions and option details.
+
+== 0.0.1 03-09-2007
+
+* 1 major enhancement:
+  * Initial release

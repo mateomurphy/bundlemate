@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+local_libs = [
+  File.join(File.dirname(__FILE__), *%w[../lib/bundle_mate])
+]
+
+if File.exist?(local_libs.first)
+  local_libs.each { |lib| require lib }
+else
+  require 'bundlemate'
+end
+
+BundleMate::Application.run(ARGV)
