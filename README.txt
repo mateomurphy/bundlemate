@@ -23,4 +23,4 @@ Bundlemate is a simple CLI bundle manager for TextMate.
 
 == INSTALL:
 
-* sudo gem install bundlemate --include-dependencies
+* sudo gem install bundlemate

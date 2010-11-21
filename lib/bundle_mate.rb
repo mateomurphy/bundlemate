@@ -1,7 +1,7 @@
 require 'rubygems'
 
 module BundleMate
-  MACROMATES_REPOSITORY = 'http://macromates.com/svn/Bundles/trunk/Bundles/'
+  MACROMATES_REPOSITORY = 'http://svn.textmate.org/trunk/Bundles'
   
   def self.reload_textmate_bundles!
     system("osascript -e 'tell app \"TextMate\" to reload bundles'")
@@ -10,7 +10,7 @@ module BundleMate
   module VERSION #:nodoc:
     MAJOR = 0
     MINOR = 1
-    TINY  = 1
+    TINY  = 2
 
     STRING = [MAJOR, MINOR, TINY].join('.')
   end

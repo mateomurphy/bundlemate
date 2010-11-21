@@ -1,9 +1,14 @@
-== 0.1.1 01-11-2007
+== 0.1.2 2010-11-21
+
+* 1 minor enhancement:
+  * Fixed svn repo path
+
+== 0.1.1 2007-11-01
 
 * 1 minor enhancement:
   * Updated help text with clearer instructions and option details.
 
-== 0.0.1 03-09-2007
+== 0.0.1 2007-09-03
 
 * 1 major enhancement:
   * Initial release
